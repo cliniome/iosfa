@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED5C1D7B1EA5489E74D6F26 /* Pods_Nadec2FA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1611C6C6C4B86D0C73FF8FD /* Pods_Nadec2FA.framework */; };
 		AC10E7271C317E400076F682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10E7261C317E400076F682 /* AppDelegate.swift */; };
 		AC10E7291C317E400076F682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10E7281C317E400076F682 /* ViewController.swift */; };
 		AC10E72C1C317E400076F682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10E72A1C317E400076F682 /* Main.storyboard */; };
 		AC10E72E1C317E400076F682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10E72D1C317E400076F682 /* Assets.xcassets */; };
 		AC10E7311C317E400076F682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10E72F1C317E400076F682 /* LaunchScreen.storyboard */; };
+		AC75572D1C318A44001BFA47 /* welcomePage.html in Resources */ = {isa = PBXBuildFile; fileRef = AC75572C1C318A44001BFA47 /* welcomePage.html */; };
+		AC75572F1C318B46001BFA47 /* globalTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC75572E1C318B46001BFA47 /* globalTop.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322BCB92ABF0A8134893F255 /* Pods-Nadec2FA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nadec2FA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nadec2FA/Pods-Nadec2FA.debug.xcconfig"; sourceTree = "<group>"; };
+		6215B7E20ADF91AB36D928FA /* Pods-Nadec2FA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nadec2FA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nadec2FA/Pods-Nadec2FA.release.xcconfig"; sourceTree = "<group>"; };
+		A1611C6C6C4B86D0C73FF8FD /* Pods_Nadec2FA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nadec2FA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10E7231C317E400076F682 /* Nadec2FA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nadec2FA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10E7261C317E400076F682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC10E7281C317E400076F682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		AC10E72D1C317E400076F682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC10E7301C317E400076F682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC10E7321C317E400076F682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC75572C1C318A44001BFA47 /* welcomePage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = welcomePage.html; sourceTree = "<group>"; };
+		AC75572E1C318B46001BFA47 /* globalTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = globalTop.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED5C1D7B1EA5489E74D6F26 /* Pods_Nadec2FA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38C606F8C54D2790489268A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1611C6C6C4B86D0C73FF8FD /* Pods_Nadec2FA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9695025ED98C13DD1E379B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				322BCB92ABF0A8134893F255 /* Pods-Nadec2FA.debug.xcconfig */,
+				6215B7E20ADF91AB36D928FA /* Pods-Nadec2FA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC10E71A1C317E400076F682 = {
 			isa = PBXGroup;
 			children = (
 				AC10E7251C317E400076F682 /* Nadec2FA */,
 				AC10E7241C317E400076F682 /* Products */,
+				A9695025ED98C13DD1E379B0 /* Pods */,
+				38C606F8C54D2790489268A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +82,8 @@
 		AC10E7251C317E400076F682 /* Nadec2FA */ = {
 			isa = PBXGroup;
 			children = (
+				AC75572E1C318B46001BFA47 /* globalTop.jpg */,
+				AC75572C1C318A44001BFA47 /* welcomePage.html */,
 				AC10E7261C317E400076F682 /* AppDelegate.swift */,
 				AC10E7281C317E400076F682 /* ViewController.swift */,
 				AC10E72A1C317E400076F682 /* Main.storyboard */,
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC10E7351C317E400076F682 /* Build configuration list for PBXNativeTarget "Nadec2FA" */;
 			buildPhases = (
+				4C3B3EAFDDE6578582BD70C8 /* Check Pods Manifest.lock */,
 				AC10E71F1C317E400076F682 /* Sources */,
 				AC10E7201C317E400076F682 /* Frameworks */,
 				AC10E7211C317E400076F682 /* Resources */,
+				A2FF02BABDB56BBEB136C772 /* Embed Pods Frameworks */,
+				56997BDB7C57731A79F02BBE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					AC10E7221C317E400076F682 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A8BLV74V3D;
 					};
 				};
 			};
@@ -122,13 +156,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC75572D1C318A44001BFA47 /* welcomePage.html in Resources */,
 				AC10E7311C317E400076F682 /* LaunchScreen.storyboard in Resources */,
+				AC75572F1C318B46001BFA47 /* globalTop.jpg in Resources */,
 				AC10E72E1C317E400076F682 /* Assets.xcassets in Resources */,
 				AC10E72C1C317E400076F682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C3B3EAFDDE6578582BD70C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56997BDB7C57731A79F02BBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nadec2FA/Pods-Nadec2FA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FF02BABDB56BBEB136C772 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nadec2FA/Pods-Nadec2FA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC10E71F1C317E400076F682 /* Sources */ = {
@@ -245,23 +329,33 @@
 		};
 		AC10E7361C317E400076F682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322BCB92ABF0A8134893F255 /* Pods-Nadec2FA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Nadec2FA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sa.com.nadec.ios.fa.Nadec2FA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		AC10E7371C317E400076F682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6215B7E20ADF91AB36D928FA /* Pods-Nadec2FA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Nadec2FA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sa.com.nadec.ios.fa.Nadec2FA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +378,7 @@
 				AC10E7371C317E400076F682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
