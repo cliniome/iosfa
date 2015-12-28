@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nadec2FA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="Nadec2FA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,95 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dmk-D1-72d">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Kg-xt-E0u">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.21996140021179511" green="0.61905352249181167" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="NOq-Z0-9ho">
+                                        <variation key="widthClass=compact" constant="52"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NOq-Z0-9ho"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="NOq-Z0-9ho"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dmk-D1-72d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Qk-5i-vbo"/>
+                            <constraint firstAttribute="trailing" secondItem="9Kg-xt-E0u" secondAttribute="trailing" id="FfG-eB-Ikd"/>
+                            <constraint firstItem="Dmk-D1-72d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MId-Rk-oCg"/>
+                            <constraint firstItem="9Kg-xt-E0u" firstAttribute="trailing" secondItem="Dmk-D1-72d" secondAttribute="trailing" id="O4H-Af-mbJ"/>
+                            <constraint firstItem="Dmk-D1-72d" firstAttribute="leading" secondItem="9Kg-xt-E0u" secondAttribute="leading" id="RTe-wv-iF6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Kg-xt-E0u" secondAttribute="bottom" constant="2" id="jdT-Hk-tTc"/>
+                            <constraint firstItem="9Kg-xt-E0u" firstAttribute="top" secondItem="Dmk-D1-72d" secondAttribute="bottom" constant="1" id="o3c-Xw-rl5">
+                                <variation key="widthClass=compact" constant="2"/>
+                            </constraint>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Kg-xt-E0u" secondAttribute="bottom" constant="2" id="ohj-cE-L7A"/>
+                            <constraint firstItem="9Kg-xt-E0u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="rLi-gy-VJg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Kg-xt-E0u" secondAttribute="trailing" constant="-20" id="t6i-Kl-vBP"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Dmk-D1-72d"/>
+                                <exclude reference="9Kg-xt-E0u"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6Qk-5i-vbo"/>
+                                <exclude reference="MId-Rk-oCg"/>
+                                <exclude reference="RTe-wv-iF6"/>
+                                <exclude reference="FfG-eB-Ikd"/>
+                                <exclude reference="O4H-Af-mbJ"/>
+                                <exclude reference="o3c-Xw-rl5"/>
+                                <exclude reference="rLi-gy-VJg"/>
+                                <exclude reference="t6i-Kl-vBP"/>
+                                <exclude reference="jdT-Hk-tTc"/>
+                                <exclude reference="ohj-cE-L7A"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Dmk-D1-72d"/>
+                                <include reference="9Kg-xt-E0u"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6Qk-5i-vbo"/>
+                                <include reference="MId-Rk-oCg"/>
+                                <include reference="RTe-wv-iF6"/>
+                                <include reference="FfG-eB-Ikd"/>
+                                <include reference="O4H-Af-mbJ"/>
+                                <include reference="o3c-Xw-rl5"/>
+                                <include reference="rLi-gy-VJg"/>
+                                <include reference="t6i-Kl-vBP"/>
+                                <include reference="jdT-Hk-tTc"/>
+                                <include reference="ohj-cE-L7A"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="WelcomeView" destination="Dmk-D1-72d" id="oeI-yo-oTE"/>
+                        <outlet property="nextButton" destination="9Kg-xt-E0u" id="u40-e5-Sg5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="76.5" y="272"/>
         </scene>
     </scenes>
 </document>
