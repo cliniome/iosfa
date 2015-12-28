@@ -18,6 +18,9 @@
 		AC7557321C318D5F001BFA47 /* nextPng.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7557311C318D5F001BFA47 /* nextPng.png */; };
 		AC7557371C318FED001BFA47 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7557361C318FED001BFA47 /* WelcomeViewController.swift */; };
 		AC7557391C3196CA001BFA47 /* logosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7557381C3196CA001BFA47 /* logosmall.png */; };
+		AC75573B1C319935001BFA47 /* PinPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75573A1C319935001BFA47 /* PinPasswordViewController.swift */; };
+		AC75573D1C319A03001BFA47 /* NADEC_LOGI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC75573C1C319A03001BFA47 /* NADEC_LOGI.jpg */; };
+		AC75573F1C31A1AF001BFA47 /* BarcodeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		AC7557311C318D5F001BFA47 /* nextPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextPng.png; sourceTree = "<group>"; };
 		AC7557361C318FED001BFA47 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		AC7557381C3196CA001BFA47 /* logosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logosmall.png; sourceTree = "<group>"; };
+		AC75573A1C319935001BFA47 /* PinPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinPasswordViewController.swift; sourceTree = "<group>"; };
+		AC75573C1C319A03001BFA47 /* NADEC_LOGI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NADEC_LOGI.jpg; sourceTree = "<group>"; };
+		AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScanningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 		AC7557301C318D14001BFA47 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AC75573C1C319A03001BFA47 /* NADEC_LOGI.jpg */,
 				AC7557311C318D5F001BFA47 /* nextPng.png */,
 			);
 			name = images;
@@ -115,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				AC7557361C318FED001BFA47 /* WelcomeViewController.swift */,
+				AC75573A1C319935001BFA47 /* PinPasswordViewController.swift */,
+				AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -183,6 +192,7 @@
 			files = (
 				AC75572D1C318A44001BFA47 /* welcomePage.html in Resources */,
 				AC10E7311C317E400076F682 /* LaunchScreen.storyboard in Resources */,
+				AC75573D1C319A03001BFA47 /* NADEC_LOGI.jpg in Resources */,
 				AC7557391C3196CA001BFA47 /* logosmall.png in Resources */,
 				AC75572F1C318B46001BFA47 /* globalTop.jpg in Resources */,
 				AC10E72E1C317E400076F682 /* Assets.xcassets in Resources */,
@@ -248,7 +258,9 @@
 			files = (
 				AC7557371C318FED001BFA47 /* WelcomeViewController.swift in Sources */,
 				AC10E7291C317E400076F682 /* ViewController.swift in Sources */,
+				AC75573F1C31A1AF001BFA47 /* BarcodeScanningViewController.swift in Sources */,
 				AC10E7271C317E400076F682 /* AppDelegate.swift in Sources */,
+				AC75573B1C319935001BFA47 /* PinPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
