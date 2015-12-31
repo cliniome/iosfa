@@ -94,6 +94,8 @@ class OTPAccountViewController : UIViewController{
     }
     
     
+    
+    
     func generateOTPAndUpdate(){
         
         //initialize the database Manager
