@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2ED5C1D7B1EA5489E74D6F26 /* Pods_Nadec2FA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1611C6C6C4B86D0C73FF8FD /* Pods_Nadec2FA.framework */; };
+		AC0465611C329271002AB15E /* db.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC0465601C329271002AB15E /* db.plist */; };
+		AC0465631C329396002AB15E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0465621C329396002AB15E /* DatabaseManager.swift */; };
+		AC0465681C32D76C002AB15E /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0465671C32D76C002AB15E /* SecurityManager.swift */; };
 		AC10E7271C317E400076F682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10E7261C317E400076F682 /* AppDelegate.swift */; };
 		AC10E7291C317E400076F682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10E7281C317E400076F682 /* ViewController.swift */; };
 		AC10E72C1C317E400076F682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10E72A1C317E400076F682 /* Main.storyboard */; };
@@ -21,12 +24,36 @@
 		AC75573B1C319935001BFA47 /* PinPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75573A1C319935001BFA47 /* PinPasswordViewController.swift */; };
 		AC75573D1C319A03001BFA47 /* NADEC_LOGI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC75573C1C319A03001BFA47 /* NADEC_LOGI.jpg */; };
 		AC75573F1C31A1AF001BFA47 /* BarcodeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */; };
+		AC7557411C31B2AA001BFA47 /* BarcodeScanning.html in Resources */ = {isa = PBXBuildFile; fileRef = AC7557401C31B2AA001BFA47 /* BarcodeScanning.html */; };
+		AC7557441C31BB45001BFA47 /* JSONResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7557431C31BB45001BFA47 /* JSONResult.swift */; };
+		ACB46CAE1C32E81700343DD5 /* SecureAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB46CAD1C32E81700343DD5 /* SecureAccountViewController.swift */; };
+		ACB46CB01C32E85200343DD5 /* OTPAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB46CAF1C32E85200343DD5 /* OTPAccountViewController.swift */; };
+		ACB46CB21C32EB0D00343DD5 /* OTPGenerationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB46CB11C32EB0D00343DD5 /* OTPGenerationController.swift */; };
+		ACB46CB41C32ED2100343DD5 /* GeneratorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB46CB31C32ED2100343DD5 /* GeneratorFactory.swift */; };
+		ACB46CB61C32ED7500343DD5 /* OTPGeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB46CB51C32ED7500343DD5 /* OTPGeneratorType.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC54D62E1C342F5A00B17966 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		322BCB92ABF0A8134893F255 /* Pods-Nadec2FA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nadec2FA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nadec2FA/Pods-Nadec2FA.debug.xcconfig"; sourceTree = "<group>"; };
 		6215B7E20ADF91AB36D928FA /* Pods-Nadec2FA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nadec2FA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nadec2FA/Pods-Nadec2FA.release.xcconfig"; sourceTree = "<group>"; };
 		A1611C6C6C4B86D0C73FF8FD /* Pods_Nadec2FA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nadec2FA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0465601C329271002AB15E /* db.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = db.plist; sourceTree = "<group>"; };
+		AC0465621C329396002AB15E /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		AC0465641C32D6AC002AB15E /* Nadec2FA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nadec2FA-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC0465671C32D76C002AB15E /* SecurityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
 		AC10E7231C317E400076F682 /* Nadec2FA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nadec2FA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10E7261C317E400076F682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC10E7281C317E400076F682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +69,14 @@
 		AC75573A1C319935001BFA47 /* PinPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinPasswordViewController.swift; sourceTree = "<group>"; };
 		AC75573C1C319A03001BFA47 /* NADEC_LOGI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NADEC_LOGI.jpg; sourceTree = "<group>"; };
 		AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScanningViewController.swift; sourceTree = "<group>"; };
+		AC7557401C31B2AA001BFA47 /* BarcodeScanning.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BarcodeScanning.html; sourceTree = "<group>"; };
+		AC7557431C31BB45001BFA47 /* JSONResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONResult.swift; sourceTree = "<group>"; };
+		AC8BDA211C335970000A6550 /* AeroGear_OTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGear_OTP.framework; path = "Pods/../build/Debug-iphoneos/AeroGear_OTP.framework"; sourceTree = "<group>"; };
+		ACB46CAD1C32E81700343DD5 /* SecureAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureAccountViewController.swift; sourceTree = "<group>"; };
+		ACB46CAF1C32E85200343DD5 /* OTPAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPAccountViewController.swift; sourceTree = "<group>"; };
+		ACB46CB11C32EB0D00343DD5 /* OTPGenerationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPGenerationController.swift; sourceTree = "<group>"; };
+		ACB46CB31C32ED2100343DD5 /* GeneratorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratorFactory.swift; sourceTree = "<group>"; };
+		ACB46CB51C32ED7500343DD5 /* OTPGeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPGeneratorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +94,7 @@
 		38C606F8C54D2790489268A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC8BDA211C335970000A6550 /* AeroGear_OTP.framework */,
 				A1611C6C6C4B86D0C73FF8FD /* Pods_Nadec2FA.framework */,
 			);
 			name = Frameworks;
@@ -76,10 +112,12 @@
 		AC10E71A1C317E400076F682 = {
 			isa = PBXGroup;
 			children = (
+				AC0465601C329271002AB15E /* db.plist */,
 				AC10E7251C317E400076F682 /* Nadec2FA */,
 				AC10E7241C317E400076F682 /* Products */,
 				A9695025ED98C13DD1E379B0 /* Pods */,
 				38C606F8C54D2790489268A3 /* Frameworks */,
+				AC0465641C32D6AC002AB15E /* Nadec2FA-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +132,8 @@
 		AC10E7251C317E400076F682 /* Nadec2FA */ = {
 			isa = PBXGroup;
 			children = (
+				AC7557421C31BB33001BFA47 /* Models */,
+				AC7557401C31B2AA001BFA47 /* BarcodeScanning.html */,
 				AC7557381C3196CA001BFA47 /* logosmall.png */,
 				AC7557331C318F9E001BFA47 /* ViewControllers */,
 				AC7557301C318D14001BFA47 /* images */,
@@ -124,8 +164,23 @@
 				AC7557361C318FED001BFA47 /* WelcomeViewController.swift */,
 				AC75573A1C319935001BFA47 /* PinPasswordViewController.swift */,
 				AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */,
+				ACB46CAD1C32E81700343DD5 /* SecureAccountViewController.swift */,
+				ACB46CAF1C32E85200343DD5 /* OTPAccountViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC7557421C31BB33001BFA47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC7557431C31BB45001BFA47 /* JSONResult.swift */,
+				AC0465621C329396002AB15E /* DatabaseManager.swift */,
+				AC0465671C32D76C002AB15E /* SecurityManager.swift */,
+				ACB46CB11C32EB0D00343DD5 /* OTPGenerationController.swift */,
+				ACB46CB31C32ED2100343DD5 /* GeneratorFactory.swift */,
+				ACB46CB51C32ED7500343DD5 /* OTPGeneratorType.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +196,7 @@
 				AC10E7211C317E400076F682 /* Resources */,
 				A2FF02BABDB56BBEB136C772 /* Embed Pods Frameworks */,
 				56997BDB7C57731A79F02BBE /* Copy Pods Resources */,
+				AC54D62E1C342F5A00B17966 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -198,6 +254,8 @@
 				AC10E72E1C317E400076F682 /* Assets.xcassets in Resources */,
 				AC7557321C318D5F001BFA47 /* nextPng.png in Resources */,
 				AC10E72C1C317E400076F682 /* Main.storyboard in Resources */,
+				AC0465611C329271002AB15E /* db.plist in Resources */,
+				AC7557411C31B2AA001BFA47 /* BarcodeScanning.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB46CB41C32ED2100343DD5 /* GeneratorFactory.swift in Sources */,
+				AC7557441C31BB45001BFA47 /* JSONResult.swift in Sources */,
 				AC7557371C318FED001BFA47 /* WelcomeViewController.swift in Sources */,
+				ACB46CAE1C32E81700343DD5 /* SecureAccountViewController.swift in Sources */,
 				AC10E7291C317E400076F682 /* ViewController.swift in Sources */,
 				AC75573F1C31A1AF001BFA47 /* BarcodeScanningViewController.swift in Sources */,
+				ACB46CB61C32ED7500343DD5 /* OTPGeneratorType.swift in Sources */,
+				AC0465681C32D76C002AB15E /* SecurityManager.swift in Sources */,
 				AC10E7271C317E400076F682 /* AppDelegate.swift in Sources */,
 				AC75573B1C319935001BFA47 /* PinPasswordViewController.swift in Sources */,
+				ACB46CB01C32E85200343DD5 /* OTPAccountViewController.swift in Sources */,
+				ACB46CB21C32EB0D00343DD5 /* OTPGenerationController.swift in Sources */,
+				AC0465631C329396002AB15E /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,14 +438,21 @@
 			baseConfigurationReference = 322BCB92ABF0A8134893F255 /* Pods-Nadec2FA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Nadec2FA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sa.com.nadec.ios.fa.Nadec2FA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nadec2FA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -388,14 +461,20 @@
 			baseConfigurationReference = 6215B7E20ADF91AB36D928FA /* Pods-Nadec2FA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Nadec2FA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sa.com.nadec.ios.fa.Nadec2FA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nadec2FA-Bridging-Header.h";
 			};
 			name = Release;
 		};

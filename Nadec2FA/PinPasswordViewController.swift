@@ -9,19 +9,59 @@
 import UIKit
 
 
-class PinPasswordViewController : UIViewController{
+class PinPasswordViewController : UIViewController {
+    
+    
+    @IBOutlet weak var txtPinPassword: UITextField!
+    
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
-        self.OnInit()
-        
         
     }
     
+    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+        
+        var endResult : Bool = false
+        
+        let chosenPin : NSString = txtPinPassword.text!
+        
+        if(chosenPin.length < 4)
+        {
+            //should show an alert view instead
+            let alertView : UIAlertView = UIAlertView(title: "Error", message: "You have To choose at least 4 AlphaNumeric Characters as a Pin Password", delegate: self, cancelButtonTitle: "Cancel")
+            
+            alertView.show()
+            
+            
+        }else{
+            
+            endResult = true
+        }
+        
+        
+        return endResult
+    }
     
-    func OnInit(){
+    
+    
+    
+   
+    @IBAction func onNextClick(sender: AnyObject) {
+        
+        
+        let databaseManager : DatabaseManager = DatabaseManager()
+        
+        
+        if let Pin :String? = txtPinPassword.text!{
+            
+            databaseManager.saveDataFromDictionary("pin", value: Pin)
+            
+            NSLog("PinPassword Was Written Successfully")
+        }
+        
         
         
         
