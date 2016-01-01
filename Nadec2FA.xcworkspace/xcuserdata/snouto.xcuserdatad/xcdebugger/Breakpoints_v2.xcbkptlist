@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nadec2FA/BarcodeScanningViewController.swift"
+            timestampString = "473099949.080581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "connectAndGetData(_:activityIndicator:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nadec2FA/BarcodeScanningViewController.swift"
+            timestampString = "473207960.943179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "connectAndGetData(_:activityIndicator:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nadec2FA/BarcodeScanningViewController.swift"
+            timestampString = "473099949.080581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "barCodeScanner(_:didDetectCodeString:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nadec2FA.BarcodeScanningViewController.barCodeScanner (Nadec2FA.BarcodeScanningViewController)(Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.KINBarCodeScannerViewController&gt;, didDetectCodeString : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Nadec2FA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/snouto/Projects/Nadec2FA/Nadec2FA/BarcodeScanningViewController.swift"
+                  timestampString = "473091644.894148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1920">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nadec2FA.BarcodeScanningViewController.(barCodeScanner (Nadec2FA.BarcodeScanningViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.KINBarCodeScannerViewController&gt;, didDetectCodeString : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "Nadec2FA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/snouto/Projects/Nadec2FA/Nadec2FA/BarcodeScanningViewController.swift"
+                  timestampString = "473091644.894323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OTPGenerator/OTPGenerator/OTPGenerator/OTPGenerator.swift"
+            timestampString = "473168817.433105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "generateOTPForCounter(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

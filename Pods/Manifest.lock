@@ -1,0 +1,36 @@
+PODS:
+  - AeroGear-OTP (1.0.1)
+  - CryptoSwift (0.2.2)
+  - JKBigInteger (0.0.1)
+  - KINBarCodeScanner (0.1.0)
+  - MBCircularProgressBar (0.3.4)
+  - OTPGenerator (1.0)
+  - RestEssentials (0.1)
+  - SwiftyJSON (2.3.2)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
+
+DEPENDENCIES:
+  - AeroGear-OTP (= 1.0.1)
+  - CryptoSwift (~> 0.2)
+  - JKBigInteger (~> 0.0)
+  - KINBarCodeScanner (~> 0.1)
+  - MBCircularProgressBar (~> 0.3)
+  - OTPGenerator (~> 1.0)
+  - RestEssentials (~> 0.1)
+  - SwiftyJSON (~> 2.3)
+  - ZXingObjC (~> 3.0)
+
+SPEC CHECKSUMS:
+  AeroGear-OTP: e52ebf558357609abf5c5c685994aabd01202204
+  CryptoSwift: d382228d6301c09474132417878a741c2a2e68cd
+  JKBigInteger: 7f3894ca331bf271a8e2ee0d5329707ca6eda6e0
+  KINBarCodeScanner: d811c18e026bba8e8efda6db8a415bad99071552
+  MBCircularProgressBar: ff3b8e2f441214d9ee122a24ba0d4d00cc7de881
+  OTPGenerator: 94ca27d95e8c6a47d5a798e91a3512bb9a71bc9b
+  RestEssentials: 6c29b014d3bb0f9d6762978e7154d6fb90680033
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module KINBarCodeScanner {
+  umbrella header "KINBarCodeScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

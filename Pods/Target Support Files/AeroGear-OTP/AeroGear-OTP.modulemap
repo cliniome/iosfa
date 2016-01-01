@@ -1,0 +1,6 @@
+framework module AeroGear_OTP {
+  umbrella header "AeroGear-OTP-umbrella.h"
+
+  export *
+  module * { export * }
+}
