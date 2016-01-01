@@ -104,7 +104,7 @@ class BarcodeScanningViewController : UIViewController , KINBarCodeScannerDelega
                 data.numDigits = json["numDigits"]?.integerValue
                 data.seconds = json["seconds"]?.integerValue
                 data.secretKey = json["key"]?.stringValue
-                data.seed = json["seed"]?.stringValue
+                data.seed = json["actualSeed"]?.stringValue
                 
                 
                 
