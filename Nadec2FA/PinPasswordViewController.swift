@@ -38,8 +38,14 @@ class PinPasswordViewController : UIViewController {
             
         }else{
             
+            
             endResult = true
         }
+        
+        
+        
+        //clear the inserted pin password
+        txtPinPassword.text = ""
         
         
         return endResult
@@ -58,6 +64,8 @@ class PinPasswordViewController : UIViewController {
         if let Pin :String? = txtPinPassword.text!{
             
             databaseManager.saveDataFromDictionary("pin", value: Pin)
+            
+            
             
             NSLog("PinPassword Was Written Successfully")
         }

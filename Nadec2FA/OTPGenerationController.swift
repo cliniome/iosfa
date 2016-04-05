@@ -45,11 +45,12 @@ let generator : TOTPGenerator = GeneratorFactory.generatorWithSecretKey(key, typ
     }
     
     
-    func generateOTP(key:String ,digits:Int)->String? {
+    func generateOTP(key:String ,digits:Int,seconds : Int)->String? {
         
         let codeDigits = digits
         let result : NSString?
-        var time = "\(currentTimeMillis())"
+        //var time = "\(currentTimeMillis())"
+        var time = "\(Int64(currentTimeMillis()) / Int64(30 * 1000))"
         
         while time.characters.count < 16 {
             

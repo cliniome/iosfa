@@ -11,6 +11,8 @@
 		AC0465611C329271002AB15E /* db.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC0465601C329271002AB15E /* db.plist */; };
 		AC0465631C329396002AB15E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0465621C329396002AB15E /* DatabaseManager.swift */; };
 		AC0465681C32D76C002AB15E /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0465671C32D76C002AB15E /* SecurityManager.swift */; };
+		AC075D751C7D30710026253F /* PasswordVerificationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC075D741C7D30710026253F /* PasswordVerificationStep.swift */; };
+		AC075D771C7D47420026253F /* itunes.png in Resources */ = {isa = PBXBuildFile; fileRef = AC075D761C7D47420026253F /* itunes.png */; };
 		AC10E7271C317E400076F682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10E7261C317E400076F682 /* AppDelegate.swift */; };
 		AC10E7291C317E400076F682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10E7281C317E400076F682 /* ViewController.swift */; };
 		AC10E72C1C317E400076F682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10E72A1C317E400076F682 /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		AC0465621C329396002AB15E /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		AC0465641C32D6AC002AB15E /* Nadec2FA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nadec2FA-Bridging-Header.h"; sourceTree = "<group>"; };
 		AC0465671C32D76C002AB15E /* SecurityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
+		AC075D741C7D30710026253F /* PasswordVerificationStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordVerificationStep.swift; sourceTree = "<group>"; };
+		AC075D761C7D47420026253F /* itunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = itunes.png; path = "../../Desktop/IOS App Icons/itunes.png"; sourceTree = "<group>"; };
 		AC10E7231C317E400076F682 /* Nadec2FA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nadec2FA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10E7261C317E400076F682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC10E7281C317E400076F682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 		AC10E71A1C317E400076F682 = {
 			isa = PBXGroup;
 			children = (
+				AC075D761C7D47420026253F /* itunes.png */,
 				AC0465601C329271002AB15E /* db.plist */,
 				AC10E7251C317E400076F682 /* Nadec2FA */,
 				AC10E7241C317E400076F682 /* Products */,
@@ -166,6 +171,7 @@
 				AC75573E1C31A1AF001BFA47 /* BarcodeScanningViewController.swift */,
 				ACB46CAD1C32E81700343DD5 /* SecureAccountViewController.swift */,
 				ACB46CAF1C32E85200343DD5 /* OTPAccountViewController.swift */,
+				AC075D741C7D30710026253F /* PasswordVerificationStep.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 				AC75572D1C318A44001BFA47 /* welcomePage.html in Resources */,
 				AC10E7311C317E400076F682 /* LaunchScreen.storyboard in Resources */,
 				AC75573D1C319A03001BFA47 /* NADEC_LOGI.jpg in Resources */,
+				AC075D771C7D47420026253F /* itunes.png in Resources */,
 				AC7557391C3196CA001BFA47 /* logosmall.png in Resources */,
 				AC75572F1C318B46001BFA47 /* globalTop.jpg in Resources */,
 				AC10E72E1C317E400076F682 /* Assets.xcassets in Resources */,
@@ -323,6 +330,7 @@
 				ACB46CB61C32ED7500343DD5 /* OTPGeneratorType.swift in Sources */,
 				AC0465681C32D76C002AB15E /* SecurityManager.swift in Sources */,
 				AC10E7271C317E400076F682 /* AppDelegate.swift in Sources */,
+				AC075D751C7D30710026253F /* PasswordVerificationStep.swift in Sources */,
 				AC75573B1C319935001BFA47 /* PinPasswordViewController.swift in Sources */,
 				ACB46CB01C32E85200343DD5 /* OTPAccountViewController.swift in Sources */,
 				ACB46CB21C32EB0D00343DD5 /* OTPGenerationController.swift in Sources */,
@@ -455,6 +463,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Nadec2FA-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -477,6 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Nadec2FA-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -537,6 +547,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7e4d8210-e34c-44b2-b41e-398c34aea936";
 				SWIFT_OBJC_BRIDGING_HEADER = "Nadec2FA-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Distribution;
 		};

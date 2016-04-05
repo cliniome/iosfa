@@ -40,8 +40,11 @@ class OTPAccountViewController : UIViewController{
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
-       self.onInit()
-       
+        
+        if(abs(self.currentValue! - self.MaxValue!) >= 30){
+            
+            self.onInit()
+        }
         
     }
     
@@ -79,7 +82,7 @@ class OTPAccountViewController : UIViewController{
             
             //generate the otp
             let otpGenerator : OTPGenerationController = OTPGenerationController()
-            if let otpValue = otpGenerator.generateOTP(data.seed! as String, digits: data.numDigits!){
+            if let otpValue = otpGenerator.generateOTP(data.seed! as String, digits: data.numDigits!,seconds: data.seconds!){
                 
                  self.currentOTP = otpValue
             }
@@ -97,6 +100,9 @@ class OTPAccountViewController : UIViewController{
     
     
     func generateOTPAndUpdate(){
+        
+        
+        
         
         //initialize the database Manager
         self.currentValue = self.currentValue! - 1
